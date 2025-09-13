@@ -1,2 +1,2 @@
 # GuitarBot
-Practice chords and inspirations for your own arrangements
+Practice chords and get inspiration for your own arrangements
