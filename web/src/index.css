@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  /* min-width: 100vw; */
+  width: 100%;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -28,10 +38,14 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* padding: 0; */
   place-items: center;
+  /* min-width: 100vw; */
+  /* min-height: 100vh; */
   min-width: 320px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 h1 {
